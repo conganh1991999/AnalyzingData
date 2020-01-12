@@ -1,0 +1,81 @@
+- Như các bạn biết, dữ liệu được thu thập ở mọi nơi xung quanh chúng ta, có thể là được thu thập thủ công bởi các nhà khoa học, hoặc được thu thập 
+bằng kỹ thuật số mỗi khi bạn click vào một trang web cũng như thiết bị di động của bạn.
+
+- Nhưng dữ liệu (data) không phải thông tin (information).
+
+-> Phân tích dữ liệu (data analysis) đóng vai trò quan trọng trong việc giúp chúng ta khám phá các thông tin hữu ích từ dữ liệu, trả lời các câu hỏi,
+hay thậm chí là dự đoán tương lai.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Cần phải hiểu được ý nghĩa của 26 thuộc tính trong tập dữ liệu
+
+- "price" là biến mục tiêu, hoặc nhãn (label), là biến mà chúng ta muốn dự đoán từ (tất cả các biến khác của) tập dữ liệu.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Chúng tôi chia các thư viện hỗ trợ phân tích dữ liệu của Python (Python data analysis libraries) thành 3 nhóm:
+
+1. "scientific computing libraries" - các thư viện tính toán khoa học, bao gồm:
+	
+	+ "Pandas":
+	  - Cung cấp các cấu trúc dữ liệu (data structure) và các công cụ (tool) cho việc thao tác và phân tích dữ liệu hiệu quả.
+	  - Phương tiện chính của "Pandas" là một bảng hai chiều chứa các nhãn hàng và cột, được gọi là một khung dữ liệu (Dataframe) 
+	
+	+ "Numpy":
+	  - Là thư viện sử dụng các mảng (array) để làm inputs và outputs.
+	  - Nó có thể được mở rộng thành các đối tượng cho các ma trận (matrix).
+
+	+ "SciPy":
+	  - Bao gồm các hàm cho các vấn đề toán học nâng cao cũng như cho việc trực quan hóa dữ liệu (data visualization).
+	  - Như là: Tính tích phân, giải phương trình vi phân, tối ưu.
+
+2. "visualization libraries" - các thư viện trực quan hóa:
+	
+	+ "Matplotlib":
+	  - Nổi tiếng nhất. Là lựa chọn tốt để tạo ra graphs và plots.
+
+	+ "Seaborn":
+	  - Dễ dàng tạo ra nhiều plots như là heat maps, time series, và violin plots.
+
+3. "algorithmic libraries" - các thư viện giải thuật:
+
+	+ "Scikit-learn":
+	  - Chứa các công cụ cho việc mô hình hóa thống kê (statistical modeling), bao gồm hồi quy (regression), phân lớp (classification),
+	  phân cụm (clustering) và hơn thế nữa.
+
+	+ "StatsModels":
+	  - Cho phép khám phá dữ liệu, ước lượng các mô hình thống kê (statistical models), và thực hiện các kiểm thử thống kê (statistical tests).
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Data acquisition là quá trình tải lên và đọc dữ liệu vào trong notebook từ nhiều nguồn khác nhau.
+
+- Có 2 yếu tố cần phải xem xet, là: format và file path.
+
+	+ Format: là cách dữ liệu được mã hóa, chẳng hạn: csv, json, xlsx, hdf,...
+
+	+ File path: là nơi dữ liệu được ghi: có thể là ở trong máy tính cá nhân hoặc đâu đó trên Internet.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Hiểu dữ liệu của bạn trước khi thực hiện bất cứ phân tích nào.
+
+- Bạn nên kiểm tra:
+	+ Các kiểu dữ liệu (data types)
+	+ Sự phân tán dữ liệu (data distribution)
+
+- Tại sao phải kiểm tra các kiểu dữ liệu?
+	+ Tiềm tàng nguy cơ không khớp kiểu
+	+ Cần tương thích kiểu với các phương thức của Python.
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+- Tiền xử lý dữ liệu: Là quá trình chuyển đổi hoặc ánh xạ dữ liệu từ dạng "thô" sang một dạng chuẩn hơn, nhằm sẵn sàng cho những phân tích tiếp theo.
+
+- Mục tiêu:
+	
+	+ Xác định và xử lý các giá trị còn thiếu
+	
+	+ Định dạng dữ liệu (data formatting)
+	
+	+ Chuẩn hóa dữ liệu (data normalization)
+
+	+ Data binning
+
+	+ Chuyển đổi các giá trị có tính phân loại sang các biến số học
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Xử lý các giá trị còn thiếu
+
+- Thường xuất hiện trong tập dữ liệu như là: "?", "NaN", 0, khoảng trắng,...
+
+- Các giải pháp có thể xem xét:
+	
+	+ Liệu người thu thập dữ liệu này có thể quay lại và tìm ra chính xác các giá trị này không.
+
+	+ Bỏ những giá trị này đi, sao cho những giá trị bị bỏ đi này tác động đến kết quả ít nhất có thể.
+
+	+ Thay thế những giá trị này thì tốt hơn là bỏ chúng đi, tuy nhiên sẽ ít chính xác hơn vì chúng ta phải đoán giá trị nào dùng để thay thế. 
+	Một trong các kỹ thuật thay thế chuẩn là thay thế các giá trị còn thiếu bằng trung bình của các giá trị tương tự đã có. 
+	Nhưng phải làm sao nếu các giá trị đã có này không thể tính trung bình được (vd, không phải là các số)? -> thường sẽ thay thế bằng tần số xuất hiện.
+	Thỉnh thoảng chúng ta có thể tìm ra cách khác để đoán dữ liệu còn thiếu.
+
+	+ Cuối cùng, có nhiều trường hợp chúng ta phải giữ lại các giá trị còn thiếu này.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Định dạng dữ liệu:
+
+- Dữ liệu thường được thu thập từ nhiều nơi khác nhau, bởi nhiều người khác nhau, và có thể được lưu trữ dưới những định dạng khác nhau.
+
+- Định dạng dữ liệu có nghĩa là đưa dữ liệu vào một tiêu chuẩn diễn đạt chung mà người dùng thực hiện để có các so sánh có ý nghĩa.
+
+- Là một phần của việc làm sạch dữ liệu, định dạng dữ liệu đảm bảo rằng dữ liệu là thống nhất và dễ dàng có thể hiểu được.
+
+- Ví dụ: Người ta có thể dùng các cách diễn đạt khác nhau để nói đến "New York City" như là: NY, Ny, N.Y, New York,...
+
+- Ví dụ: city-mpg có thể có nhiều đơn vị khác nhau
+
+- Ví dụ: "price" có kiểu là object, nhưng đúng ra nên là integer hoặc float. Sai kiểu có thể khiến dữ liệu hợp lệ giống như dữ liệu bị thiếu.
+
+-> Cần phải định dạng lại.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Chuẩn hóa dữ liệu:
+
+
+
+
+
+
+
